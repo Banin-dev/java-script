@@ -249,3 +249,19 @@ program-1
     }    
 }
 
+
+// program-5
+{ 
+    let d = 30 ;
+        e = 60;
+    if(d = 30){
+        console.log("numbers are correct");
+        if(e = 60){
+            console.log("condition is correct");
+        } else{
+            console.log("incorrect condition");
+        }
+    } else{
+        console.log("incorrect condition");
+    }    
+}
