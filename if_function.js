@@ -265,3 +265,72 @@ program-1
         console.log("incorrect condition");
     }    
 }
+
+// nested if else if
+
+// program -1
+{
+    let a = 20;
+if(a == 50)
+{
+    console.log("the value is fifty");
+}     
+else if(a == 30){
+    console.log("the value is thirty")
+}  
+else if(a == 20) {
+    console.log("the value is twenty")
+}
+else{
+    console.log("the value is not equal to twenty");
+}
+}
+
+
+// program -2 
+{ 
+    let  a = 6;
+         b = 8;
+    if (a + b <= 8 && a - b >= -2) {
+        console.log("true");
+    }
+     else if (a * b == 8 && b == a) {
+        console.log("false");
+    }  
+    else if(a % b && a == b) { 
+        console.log("the value is eight");
+    }
+    else{
+        console.log("these values are incorrect");
+    }
+}
+
+//program-3
+{ 
+    let e = 6;
+      
+    if (!ture){
+        console.log("true");
+    } 
+    else if(!e == 5) {
+        console.log("fasle");
+    }  
+    else{
+        console.log("incorrect values");
+    }   
+}
+
+// program-4
+{ 
+    let e = 4;
+        f = 6;
+    if ( e % f <= 8 || a * b >= 4){
+        console.log("true");
+    } 
+    else if(e == f || f == e) {
+        console.log("fasle");
+    }  
+    else { 
+        console.log("all the values are wrong");
+    }   
+}
